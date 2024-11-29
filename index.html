@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - VotreNom</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+</head>
+<body class="font-sans antialiased">
+
+  <!-- En-tête -->
+  <header class="bg-gray-800 text-white py-4 px-8 flex justify-between items-center">
+    <h1 class="text-xl font-bold">VotreNom</h1>
+    <nav>
+      <ul class="flex space-x-6">
+        <li><a href="#accueil" class="hover:text-teal-400">Accueil</a></li>
+        <li><a href="#projets" class="hover:text-teal-400">Projets</a></li>
+        <li><a href="#contact" class="hover:text-teal-400">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Section Héros -->
+  <section id="accueil" class="bg-cover bg-center h-screen flex items-center justify-center" style="background-image: url('male-boxer-boxing-punching-bag.jpg');">
+    <div class="text-center text-white">
+      <h2 class="text-4xl md:text-6xl font-extrabold mb-4">Bienvenue, je suis [VotreNom]</h2>
+      <p class="text-lg md:text-xl">Développeur web passionné par la création de belles interfaces.</p>
+    </div> 
+  </section>                                                                             
+  
+ <!-- Section Compétences -->
+<section id="competences" class="py-12 bg-cover bg-center" style="background-image: url('grunge-black-concrete-textured-background.jpg');">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <!-- Compétence HTML -->
+    <div class="p-6 bg-white rounded-lg shadow-md flex flex-col items-center">
+      <h4 class="text-xl font-semibold mb-2 text-center">HTML</h4>
+      <p class="text-center text-justify mb-4">Création de structures web claires et bien organisées.</p>
+      <div class="flex space-x-4">
+        <a href="#" class="p-2 bg-zinc-900 text-white rounded-full hover:bg-zinc-700">
+          <!-- Icône pour HTML -->
+          <i class="fas fa-code"></i>
+        </a>
+        <a href="#" class="p-2 bg-zinc-900 text-white rounded-full hover:bg-zinc-700">
+          <!-- Icône pour un autre bouton -->
+          <i class="fas fa-laptop-code"></i>
+        </a>
+      </div>
+    </div>
+    
+    <!-- Compétence CSS -->
+    <div class="p-6 bg-white rounded-lg shadow-md flex flex-col items-center">
+      <h4 class="text-xl font-semibold mb-2 text-center">CSS</h4>
+      <p class="text-center text-justify mb-4">Stylisation des pages web avec des designs modernes et responsives.</p>
+      <div class="flex space-x-4">
+        <a href="#" class="p-2 bg-zinc-900 text-white rounded-full hover:bg-zinc-700">
+          <!-- Icône pour CSS -->
+          <i class="fas fa-paint-brush"></i>
+        </a>
+        <a href="#" class="p-2 bg-zinc-900 text-white rounded-full hover:bg-zinc-700">
+          <!-- Icône pour un autre bouton -->
+          <i class="fas fa-cogs"></i>
+        </a>
+      </div>
+    </div>
+  </div>  
+</section>
+
+<!-- Section Projets -->
+<section id="projets" class="py-12 bg-cover bg-center" style="background-image: url('grunge-black-concrete-textured-background.jpg');">
+  <div class="container mx-auto px-8">
+    <h3 class="text-3xl font-bold text-center mb-8 text-white">Mes Projets</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Projet 1 : Boxe -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="rajat-kashyap-_XfOinBV82A-unsplash.jpg" alt="Boxe" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h4 class="text-xl font-semibold mb-2 text-center">Boxe</h4>
+          <p class="text-justify text-center">
+            La boxe est un sport de combat qui oppose deux adversaires dans un ring, utilisant uniquement leurs poings protégés par des gants pour attaquer ou se défendre. Chaque combat est divisé en rounds, où les boxeurs cherchent à marquer des points ou à remporter la victoire par KO (knockout). Ce sport exige force, endurance, agilité et stratégie, tout en inculquant discipline et maîtrise de soi. La boxe est pratiquée à la fois comme activité compétitive et exercice physique, attirant des millions d’adeptes et de spectateurs à travers le monde.
+          </p>
+        </div>
+      </div>
+      <!-- Projet 2 : Wrestling -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="young-men-sportswear-demonstrating-wrestling-combat-moves.jpg" alt="Wrestling" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h4 class="text-xl font-semibold mb-2 text-center">Wrestling</h4>
+          <p class="text-justify text-center">
+            La lutte, ou wrestling, est un sport de combat qui met en avant la force, la technique et la stratégie. Opposant deux adversaires, l’objectif est de contrôler ou d’immobiliser l’autre à l’aide de prises et de projections, tout en respectant des règles précises. Pratiquée sous différentes formes, comme la lutte libre, la gréco-romaine ou encore le catch professionnel, elle est à la fois une discipline sportive et un spectacle captivant. Sport ancien et universel, la lutte favorise le développement physique, l’endurance et la maîtrise de soi, tout en ayant une riche dimension culturelle et historique.
+          </p>
+        </div>
+      </div>
+      <!-- Projet 3 : MMA -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="ai-generated-8844755_1280.jpg" alt="MMA" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h4 class="text-xl font-semibold mb-2 text-center">MMA</h4>
+          <p class="text-justify text-center">
+            Le MMA (arts martiaux mixtes) est un sport de combat complet qui combine diverses disciplines comme la boxe, la lutte, le jiu-jitsu brésilien, le kickboxing et le muay-thaï. Les combattants s’affrontent dans une cage ou un octogone, utilisant des techniques variées pour frapper, projeter ou soumettre leur adversaire. Ce sport exige une grande maîtrise physique et mentale, ainsi qu’une stratégie adaptée aux forces et faiblesses de l’opposant. Le MMA est devenu extrêmement populaire grâce à son intensité, sa polyvalence et les grandes organisations comme l’UFC qui attirent un public mondial.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- Formulaire de contact -->
+<section id="contact" class="py-12 bg-cover bg-center" style="background-image: url('grunge-black-concrete-textured-background.jpg');">
+  <div class="container mx-auto px-8">
+    <h3 class="text-3xl font-bold text-center mb-8 text-white">Contactez-moi</h3>
+    <form class="max-w-lg mx-auto space-y-4 bg-white p-6 rounded-lg shadow-lg opacity-90">
+      <input type="text" placeholder="Votre nom" class="w-full p-3 border rounded-lg">
+      <input type="email" placeholder="Votre adresse e-mail" class="w-full p-3 border rounded-lg">
+      <textarea placeholder="Votre message" class="w-full p-3 border rounded-lg h-32"></textarea>
+      <button type="submit" class="w-full p-3 bg-zinc-900 text-white rounded-lg hover:bg-zinc-700">Envoyer</button>
+    </form>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto px-8 text-center">
+      <div class="flex justify-center space-x-4 mb-4">
+        <a href="#" class="text-teal-400 hover:text-teal-300">Facebook</a>
+        <a href="#" class="text-teal-400 hover:text-teal-300">LinkedIn</a>
+        <a href="#" class="text-teal-400 hover:text-teal-300">GitHub</a>
+      </div>
+      <p>&copy; 2024 VotreNom. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
